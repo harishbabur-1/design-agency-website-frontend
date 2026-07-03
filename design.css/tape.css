@@ -1,0 +1,11 @@
+.tape {
+    position: relative;
+}
+.tape2 {
+    position: absolute;
+    left: 0;
+    backdrop-filter:blur(0px);
+}
+.tape img {
+    height: 150px;
+}

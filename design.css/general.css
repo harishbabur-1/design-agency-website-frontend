@@ -1,0 +1,12 @@
+body {
+    height: 10000px;
+    background-color: rgb(21, 21, 21);
+    padding: 130px 0px 0px 0px;
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+p {
+    margin: 0px;
+}
+img {
+    width: 100%;
+}

@@ -1,0 +1,87 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 50px 10px 0px 10px;
+}
+
+.our-service {
+    display: flex;
+    min-width: 125px;
+    min-height: 38px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 160px;
+    background-color: rgb(72, 66, 31);
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 6px;
+    
+}
+.work-g1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-service img {
+    width: 16px;
+    color: rgb(255 223 0);
+}
+.our-service p,img {
+    display: inline-block;
+}
+.our-service p {
+    font-size: 16px;
+    color: rgb(255 223 0);
+}
+.provide {
+    font-size: 44px;
+    color: white;
+    font-weight: 800;
+}
+.provide span {
+    color: rgb(255 223 0);
+}
+.our-works {
+    margin: 40px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+.theme {
+   padding: 35px 40px 35px 40px;
+   border-radius: 30px;
+   background-color: rgb(27 27 27);
+   color: white;
+   transition: color 0.3s , background-color 0.3s ;
+}
+.circle {
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    background-color: rgb(255, 255, 255);
+}
+.our-works-symbol {
+    width: 30px;
+}
+.core {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 26px 0px 20px 0px;
+}
+.core-exp {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.theme img {
+    background-color: rgb(255, 255, 255);  
+}
+.theme:hover {
+    background-color: rgb(255 223 0);
+   color: rgb(0, 0, 0);
+}
